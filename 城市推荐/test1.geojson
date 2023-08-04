@@ -1,0 +1,3205 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    111.880159,
+                    29.592267
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "290.98",
+                "frp": "0.89",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.888883,
+                    29.635655
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "291.85",
+                "frp": "1.57",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.888491,
+                    29.631704
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "292.2",
+                "frp": "2.01",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.883651,
+                    29.634395
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "291.16",
+                "frp": "4.63",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.885289,
+                    29.638141
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "292.71",
+                "frp": "1.07",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.889074,
+                    29.633
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "288.46",
+                "frp": "3.46",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.883497,
+                    29.640964
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "288.6",
+                "frp": "2.3",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.887963,
+                    29.556787
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "296.27",
+                "frp": "1.04",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.893834,
+                    29.556806
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "289.76",
+                "frp": "36.85",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.002872,
+                    29.400836
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "303.96",
+                "frp": "36.85",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.001797,
+                    29.400788
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "296.27",
+                "frp": "4.25",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.888621,
+                    29.631785
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "298.16",
+                "frp": "4.25",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.000848,
+                    29.401939
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "282.22",
+                "frp": "1.31",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.949336,
+                    29.326746
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "282.39",
+                "frp": "1.31",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.887122,
+                    29.634938
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "292.97",
+                "frp": "1.44",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.886663,
+                    29.622234
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "293.03",
+                "frp": "1.44",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.953449,
+                    29.326031
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "300.64",
+                "frp": "3.6",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.883632,
+                    29.634366
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "302.51",
+                "frp": "5.73",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.002096,
+                    29.400823
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "289.65",
+                "frp": "0.47",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.879803,
+                    29.640616
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "280.86",
+                "frp": "1.55",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.883277,
+                    29.630675
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "304.68",
+                "frp": "7.47",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.892155,
+                    29.637872
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "271.61",
+                "frp": "0.9",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.95089,
+                    29.326411
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "305",
+                "frp": "5.88",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.890348,
+                    29.635615
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "293.96",
+                "frp": "5.18",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.88888,
+                    29.635618
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "293.86",
+                "frp": "5.18",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.88888,
+                    29.635618
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "305.44",
+                "frp": "4.73",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.893181,
+                    29.631748
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "300.19",
+                "frp": "2.12",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.887852,
+                    29.635291
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "301.91",
+                "frp": "2.11",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.885266,
+                    29.640911
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "303.28",
+                "frp": "5.11",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.845102,
+                    29.57312
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "322.44",
+                "frp": "71.99",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.884217,
+                    29.636909
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "302.4",
+                "frp": "4.14",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.893175,
+                    29.638806
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "305.57",
+                "frp": "4.53",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.76999,
+                    29.648277
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "305.67",
+                "frp": "4.01",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.888883,
+                    29.635655
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "305.39",
+                "frp": "5.82",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.704059,
+                    29.066809
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "303.44",
+                "frp": "1.92",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.718683,
+                    29.023518
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "301.43",
+                "frp": "8.2",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.489723,
+                    28.915017
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "304.89",
+                "frp": "16.47",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.880883,
+                    29.635364
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "301.06",
+                "frp": "8.2",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.688238,
+                    29.054333
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "302.77",
+                "frp": "3.68",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.779584,
+                    29.645961
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "298.08",
+                "frp": "2.95",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.964686,
+                    28.902344
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "300.36",
+                "frp": "8.09",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.428344,
+                    29.598779
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "285.94",
+                "frp": "1.35",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.699588,
+                    29.005338
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "287.32",
+                "frp": "1.56",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.881821,
+                    29.632155
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "297.27",
+                "frp": "1.62",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.77045,
+                    29.648131
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "292.9",
+                "frp": "2.7",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.884139,
+                    29.636916
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "284.53",
+                "frp": "3.42",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.880159,
+                    29.592267
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "275.28",
+                "frp": "3.38",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.675799,
+                    29.040963
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "290.32",
+                "frp": "3.3",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.78049,
+                    29.648421
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "289.92",
+                "frp": "1.35",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.88128,
+                    29.635329
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "293.47",
+                "frp": "4.98",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.739738,
+                    29.075048
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "290.98",
+                "frp": "0.89",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.718155,
+                    29.041846
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "291.85",
+                "frp": "1.57",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.489065,
+                    28.901069
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "292.2",
+                "frp": "2.01",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.720289,
+                    29.019108
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "291.16",
+                "frp": "4.63",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.696329,
+                    29.043164
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "292.71",
+                "frp": "1.07",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.693764,
+                    29.050298
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "288.46",
+                "frp": "3.46",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.883651,
+                    29.634395
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "288.6",
+                "frp": "2.3",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.726513,
+                    29.03668
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "296.27",
+                "frp": "1.04",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.690158,
+                    29.052092
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "289.76",
+                "frp": "36.85",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.679168,
+                    29.041959
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "303.96",
+                "frp": "36.85",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.487109,
+                    28.885237
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "296.27",
+                "frp": "4.25",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.753748,
+                    29.638587
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "298.16",
+                "frp": "4.25",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.178259,
+                    29.663076
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "282.22",
+                "frp": "1.31",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.731018,
+                    29.036221
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "282.39",
+                "frp": "1.31",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.699323,
+                    29.067488
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "292.97",
+                "frp": "1.44",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.430105,
+                    29.595365
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "293.03",
+                "frp": "1.44",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.660566,
+                    29.038372
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "300.64",
+                "frp": "3.6",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.764506,
+                    29.63348
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "302.51",
+                "frp": "5.73",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.875155,
+                    29.010758
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "289.65",
+                "frp": "0.47",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.173541,
+                    29.439511
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "280.86",
+                "frp": "1.55",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.885289,
+                    29.638141
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "304.68",
+                "frp": "7.47",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.730133,
+                    29.042231
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "271.61",
+                "frp": "0.9",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.699214,
+                    29.076336
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "305",
+                "frp": "5.88",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.959497,
+                    28.77842
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "293.96",
+                "frp": "5.18",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.974703,
+                    28.91773
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "293.86",
+                "frp": "5.18",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.664254,
+                    29.049335
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "305.44",
+                "frp": "4.73",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.876615,
+                    29.186505
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "300.19",
+                "frp": "2.12",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.910615,
+                    29.126621
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "301.91",
+                "frp": "2.11",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.709075,
+                    29.037129
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "303.28",
+                "frp": "5.11",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.893834,
+                    29.556806
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "322.44",
+                "frp": "71.99",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.002872,
+                    29.400836
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "302.4",
+                "frp": "4.14",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.677878,
+                    29.061123
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "305.57",
+                "frp": "4.53",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.640249,
+                    29.450821
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "305.67",
+                "frp": "4.01",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.763129,
+                    29.666917
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "305.39",
+                "frp": "5.82",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.871954,
+                    29.64085
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "303.44",
+                "frp": "1.92",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.888621,
+                    29.631785
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "301.43",
+                "frp": "8.2",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.710206,
+                    29.053642
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "304.89",
+                "frp": "16.47",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.094221,
+                    29.652102
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "301.06",
+                "frp": "8.2",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.952135,
+                    28.781125
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "302.77",
+                "frp": "3.68",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.183991,
+                    29.428455
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "298.08",
+                "frp": "2.95",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.400365,
+                    29.603462
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "300.36",
+                "frp": "8.09",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.884139,
+                    29.636916
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "285.94",
+                "frp": "1.35",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.985756,
+                    29.212762
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "287.32",
+                "frp": "1.56",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.549954,
+                    29.644318
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "297.27",
+                "frp": "1.62",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.973249,
+                    28.912709
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "292.9",
+                "frp": "2.7",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.709858,
+                    29.037148
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "284.53",
+                "frp": "3.42",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.668328,
+                    29.04815
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "275.28",
+                "frp": "3.38",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.693461,
+                    29.070056
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "290.32",
+                "frp": "3.3",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.701285,
+                    29.01356
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "289.92",
+                "frp": "1.35",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.64776,
+                    29.044797
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "293.47",
+                "frp": "4.98",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.697851,
+                    28.995286
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "290.98",
+                "frp": "0.89",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.760252,
+                    29.64613
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "291.85",
+                "frp": "1.57",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.439999,
+                    29.604913
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "292.2",
+                "frp": "2.01",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.179957,
+                    29.429206
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "291.16",
+                "frp": "4.63",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.753925,
+                    29.648758
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "292.71",
+                "frp": "1.07",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.670505,
+                    29.050623
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "288.46",
+                "frp": "3.46",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.722448,
+                    29.048014
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "288.6",
+                "frp": "2.3",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.173233,
+                    29.425356
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "296.27",
+                "frp": "1.04",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.700731,
+                    29.038639
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "289.76",
+                "frp": "36.85",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.181295,
+                    29.422035
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "303.96",
+                "frp": "36.85",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.000848,
+                    29.401939
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "296.27",
+                "frp": "4.25",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.762489,
+                    29.646104
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "298.16",
+                "frp": "4.25",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.565667,
+                    29.705681
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "282.22",
+                "frp": "1.31",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.427144,
+                    29.598769
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "282.39",
+                "frp": "1.31",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.179485,
+                    29.418791
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "292.97",
+                "frp": "1.44",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.380504,
+                    29.590098
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "293.03",
+                "frp": "1.44",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.379022,
+                    29.588598
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "300.64",
+                "frp": "3.6",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.24982,
+                    29.660076
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "302.51",
+                "frp": "5.73",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.974331,
+                    28.927104
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "289.65",
+                "frp": "0.47",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.420822,
+                    29.596851
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "280.86",
+                "frp": "1.55",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.986398,
+                    29.216556
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "304.68",
+                "frp": "7.47",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.649603,
+                    29.754645
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "271.61",
+                "frp": "0.9",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.788744,
+                    29.788577
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "305",
+                "frp": "5.88",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.178077,
+                    29.411739
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "293.96",
+                "frp": "5.18",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.722774,
+                    29.047608
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "293.86",
+                "frp": "5.18",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.172952,
+                    29.419636
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "305.44",
+                "frp": "4.73",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.692599,
+                    29.052571
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "300.19",
+                "frp": "2.12",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.699122,
+                    29.005379
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "301.91",
+                "frp": "2.11",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.751988,
+                    29.647302
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "303.28",
+                "frp": "5.11",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.376886,
+                    29.580089
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "322.44",
+                "frp": "71.99",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.965188,
+                    28.914294
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "302.4",
+                "frp": "4.14",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.728372,
+                    29.039291
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "305.57",
+                "frp": "4.53",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.485234,
+                    29.587774
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "305.67",
+                "frp": "4.01",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.186451,
+                    29.426881
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "305.39",
+                "frp": "5.82",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.484137,
+                    28.951473
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "303.44",
+                "frp": "1.92",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.172949,
+                    29.419435
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "301.43",
+                "frp": "8.2",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.435593,
+                    29.582329
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "304.89",
+                "frp": "16.47",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.420823,
+                    29.596897
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "301.06",
+                "frp": "8.2",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.407174,
+                    29.416343
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "302.77",
+                "frp": "3.68",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.763003,
+                    29.64533
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "298.08",
+                "frp": "2.95",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.718043,
+                    29.063348
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "300.36",
+                "frp": "8.09",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.890348,
+                    29.635615
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "285.94",
+                "frp": "1.35",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.432585,
+                    29.583701
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "287.32",
+                "frp": "1.56",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.745157,
+                    29.645131
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "297.27",
+                "frp": "1.62",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.693385,
+                    29.040039
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "292.9",
+                "frp": "2.7",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.379211,
+                    29.588383
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "284.53",
+                "frp": "3.42",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.708589,
+                    28.961727
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "275.28",
+                "frp": "3.38",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.784208,
+                    29.659811
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "290.32",
+                "frp": "3.3",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.755835,
+                    29.65571
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "289.92",
+                "frp": "1.35",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.770173,
+                    29.650447
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "293.47",
+                "frp": "4.98",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.678952,
+                    29.041969
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "290.98",
+                "frp": "0.89",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.766489,
+                    29.661125
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "291.85",
+                "frp": "1.57",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.401203,
+                    29.589977
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "292.2",
+                "frp": "2.01",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.709563,
+                    29.049123
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "291.16",
+                "frp": "4.63",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.705758,
+                    29.050709
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "292.71",
+                "frp": "1.07",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.180897,
+                    29.41472
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "288.46",
+                "frp": "3.46",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.180897,
+                    29.41472
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "288.6",
+                "frp": "2.3",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.98885,
+                    29.215025
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "296.27",
+                "frp": "1.04",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.880883,
+                    29.635364
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "289.76",
+                "frp": "36.85",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.410881,
+                    29.591349
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "303.96",
+                "frp": "36.85",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.702912,
+                    29.008547
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "296.27",
+                "frp": "4.25",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.720693,
+                    29.044036
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "298.16",
+                "frp": "4.25",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.689393,
+                    29.07675
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "282.22",
+                "frp": "1.31",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.17592,
+                    29.421199
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "282.39",
+                "frp": "1.31",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.71359,
+                    28.963252
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "292.97",
+                "frp": "1.44",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.578393,
+                    29.055762
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "293.03",
+                "frp": "1.44",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.17621,
+                    29.425171
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "300.64",
+                "frp": "3.6",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.888883,
+                    29.635655
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "302.51",
+                "frp": "5.73",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.880159,
+                    29.592267
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "289.65",
+                "frp": "0.47",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.888491,
+                    29.631704
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "280.86",
+                "frp": "1.55",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.883651,
+                    29.634395
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "304.68",
+                "frp": "7.47",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.885289,
+                    29.638141
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "271.61",
+                "frp": "0.9",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.889074,
+                    29.633
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "305",
+                "frp": "5.88",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.883497,
+                    29.640964
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "293.96",
+                "frp": "5.18",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.887963,
+                    29.556787
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "293.86",
+                "frp": "5.18",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.893834,
+                    29.556806
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "305.44",
+                "frp": "4.73",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.002872,
+                    29.400836
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "300.19",
+                "frp": "2.12",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.001797,
+                    29.400788
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "301.91",
+                "frp": "2.11",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.888621,
+                    29.631785
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "303.28",
+                "frp": "5.11",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.000848,
+                    29.401939
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "322.44",
+                "frp": "71.99",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.002872,
+                    29.400836
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "302.4",
+                "frp": "4.14",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.677878,
+                    29.061123
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "305.57",
+                "frp": "4.53",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.640249,
+                    29.450821
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "305.67",
+                "frp": "4.01",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.763129,
+                    29.666917
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "305.39",
+                "frp": "5.82",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.871954,
+                    29.64085
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "303.44",
+                "frp": "1.92",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.888621,
+                    29.631785
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "301.43",
+                "frp": "8.2",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    112.002096,
+                    29.400823
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "304.89",
+                "frp": "16.47",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.88128,
+                    29.635329
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "301.06",
+                "frp": "8.2",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.881821,
+                    29.632155
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "302.77",
+                "frp": "3.68",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.880883,
+                    29.635364
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "298.08",
+                "frp": "2.95",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.893175,
+                    29.638806
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "300.36",
+                "frp": "8.09",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.949336,
+                    29.326746
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "285.94",
+                "frp": "1.35",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.879803,
+                    29.640616
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "287.32",
+                "frp": "1.56",
+                "daynight": "N",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.887122,
+                    29.634938
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "297.27",
+                "frp": "1.62",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.883277,
+                    29.630675
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "292.9",
+                "frp": "2.7",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.884139,
+                    29.636916
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "284.53",
+                "frp": "3.42",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.886663,
+                    29.622234
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "275.28",
+                "frp": "3.38",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.953449,
+                    29.326031
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "290.32",
+                "frp": "3.3",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.883632,
+                    29.634366
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "289.92",
+                "frp": "1.35",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    111.64776,
+                    29.044797
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "bright_ti5": "293.47",
+                "frp": "4.98",
+                "daynight": "D",
+                "type": "3"
+            },
+            "type": "Feature"
+        }
+    ]
+}

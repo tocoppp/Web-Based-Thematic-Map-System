@@ -1,0 +1,368 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>武汉——跳转+标注</title>
+    <script src="./js/ol.js" type="text/javascript"></script>
+    <link href="./css/ol.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <script src="./js/jquery-3.6.4.min.js" type="text/javascript"></script>
+    <style type="text/css">
+        #layertree li > span {
+            cursor: pointer;
+        }
+        #turns{
+            position:fixed;
+            right: 2rem;
+            top: 1rem;
+            z-index: 9999;
+        }
+        #x,#y{
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>  
+    <div id="popup" class="ol-popup" >
+        <a href="#" id="popup-closer" class="ol-popup-closer">关闭</a>
+        <div id="popup-content"></div>
+    </div>
+    <div id="turns">
+        <input type="text" id="x" placeholder="请输入经度" value=''/>
+        <input type="text" id="y" placeholder="请输入纬度" value=''/>
+        <input type="button" value="点击切换" onclick="change()"/>
+    </div>
+    <div id="mapCon" class="map" style="width: 100%; height: 100%; position: absolute;">
+        <div id="layertree" >
+            <div class="title">图层列表</div>
+            <ul>
+                <li>
+                    <span>天地图矢量图层</span>
+                    <fieldset id="layer0">
+                        <label class="checkbox" for="visible0">
+                            <input id="visible0" class="visible" type="checkbox" />透明度
+                        </label>
+                        <input class="opacity" type="range" min="0" max="1" step="0.01" />
+                    </fieldset>
+                </li>
+                <li>
+                    <span>天地图矢量注记图层</span>
+                    <fieldset id="layer1">
+                        <label class="checkbox" for="visible1">
+                            <input id="visible1" class="visible" type="checkbox" />透明度
+                        </label>
+                        <input class="opacity" type="range" min="0" max="1" step="0.01" />
+                    </fieldset>
+                </li>
+                <li>
+                    <span>天地图影像图层</span>
+                    <fieldset id="layer2">
+                        <label class="checkbox" for="visible2">
+                            <input id="visible2" class="visible" type="checkbox" />透明度
+                        </label>
+                        <input class="opacity" type="range" min="0" max="1" step="0.01" />
+                    </fieldset>
+                </li>
+                <li>
+                    <span>天地图影像注记图层</span>
+                    <fieldset id="layer3">
+                        <label class="checkbox" for="visible3">
+                            <input id="visible3" class="visible" type="checkbox" />透明度
+                        </label>
+                        <input class="opacity" type="range" min="0" max="1" step="0.01" />
+                    </fieldset>
+                </li>
+                <li>
+                    <span>天地图地形图层</span>
+                    <fieldset id="layer4">
+                        <label class="checkbox" for="visible4">
+                            <input id="visible4" class="visible" type="checkbox" />透明度
+                        </label>
+                        <input class="opacity" type="range" min="0" max="1" step="0.01" />
+                    </fieldset>
+                </li>
+                <li>
+                    <span>天地图地形注记图层</span>
+                    <fieldset id="layer5">
+                        <label class="checkbox" for="visible5">
+                            <input id="visible5" class="visible" type="checkbox" />透明度
+                        </label>
+                        <input class="opacity" type="range" min="0" max="1" step="0.01" />
+                    </fieldset>
+                </li>
+            </ul>
+        </div>
+    </div>
+<script type="text/javascript">
+    document.getElementById("mapCon").style.height=window.innerHeight - 20 + "px";
+   //初始值
+    var x=119.7218677900;
+    var y = 30.2611135600;
+    //实例化Map对象加载地图
+    var map = new ol.Map({
+        //地图容器中加载的图层
+        layers: [
+            new ol.layer.Tile({
+                title: "天地图矢量图层",
+                source: new ol.source.XYZ({
+                    url: "http://t0.tianditu.com/DataServer?T=vec_w&x={x}&y={y}&l={z}&tk=58df14135d5563e59825310d71f2e473",
+                    wrapX: false
+                })
+            }), 
+            new ol.layer.Tile({
+                title: "天地图矢量注记图层",
+                source: new ol.source.XYZ({
+                    url: "http://t0.tianditu.com/DataServer?T=cva_w&x={x}&y={y}&l={z}&tk=58df14135d5563e59825310d71f2e473",
+                    wrap: false
+                })
+            }),
+            new ol.layer.Tile({
+                title: "天地图影像图层",
+                source: new ol.source.XYZ({
+                    url: "http://t0.tianditu.com/DataServer?T=img_w&x={x}&y={y}&l={z}&tk=58df14135d5563e59825310d71f2e473",
+                    wrapX: false
+                })
+            }),
+            new ol.layer.Tile({
+                title: "天地图影像注记图层",
+                source: new ol.source.XYZ({
+                    url: "http://t0.tianditu.com/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=58df14135d5563e59825310d71f2e473",
+                    wrapX: false
+                })
+            }),
+            new ol.layer.Tile({
+                title: "天地图地形图层",
+                source: new ol.source.XYZ({
+                    url: "http://t0.tianditu.com/DataServer?T=ter_w&x={x}&y={y}&l={z}&tk=58df14135d5563e59825310d71f2e473",
+                    wrapX: false
+                })
+            }),
+            new ol.layer.Tile({
+                title: "天地图地形注记图层",
+                source: new ol.source.XYZ({
+                    url: "http://t0.tianditu.com/DataServer?T=cta_w&x={x}&y={y}&l={z}&tk=58df14135d5563e59825310d71f2e473",
+                    wrapX: false
+                })
+            }),
+            new ol.layer.Vector({
+                source:new ol.source.Vector({
+                    url:"./food.json",
+                    format:new ol.format.GeoJSON()
+                }),
+                style:new ol.style.Style({
+							//点样式
+							image: new ol.style.Circle({
+								radius: 5,
+								fill: new ol.style.Fill({
+									color: "#ff0"
+								}),
+								stroke: new ol.style.Stroke({
+									color: "black"
+								})
+							}),
+							//线样式
+							stroke: new ol.style.Stroke({
+								color: "#ff0323",
+								width: 3
+							}),
+						}),		
+            })
+        ],
+        //地图容器div的ID
+        target: 'mapCon',
+        //地图视图设置
+        view: new ol.View({
+            //地图初始中心点
+            center: ol.proj.fromLonLat([x,y]),
+            //地图初始显示级别
+            zoom: 5
+        })
+    });
+    
+    function change(){
+        var x=document.getElementById("x").value;
+        var y=document.getElementById("y").value;
+        if(x==''||y==''){
+            alert("请输入经纬度！");
+        }
+        else{
+            //重来
+            document.getElementById("mapCon").innerHTML = '';
+            // 要是能重来，我就选李白
+			var map = new ol.Map({
+			target: 'mapCon',
+			layers: [
+			new ol.layer.Tile({
+                title: "天地图矢量图层",
+                source: new ol.source.XYZ({
+                    url: "http://t0.tianditu.com/DataServer?T=vec_w&x={x}&y={y}&l={z}&tk=58df14135d5563e59825310d71f2e473",
+                    wrapX: false
+                })
+            }), 
+            new ol.layer.Tile({
+                title: "天地图矢量注记图层",
+                source: new ol.source.XYZ({
+                    url: "http://t0.tianditu.com/DataServer?T=cva_w&x={x}&y={y}&l={z}&tk=58df14135d5563e59825310d71f2e473",
+                    wrap: false
+                })
+            }),
+            new ol.layer.Tile({
+                title: "天地图影像图层",
+                source: new ol.source.XYZ({
+                    url: "http://t0.tianditu.com/DataServer?T=img_w&x={x}&y={y}&l={z}&tk=58df14135d5563e59825310d71f2e473",
+                    wrapX: false
+                })
+            }),
+            new ol.layer.Tile({
+                title: "天地图影像注记图层",
+                source: new ol.source.XYZ({
+                    url: "http://t0.tianditu.com/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=58df14135d5563e59825310d71f2e473",
+                    wrapX: false
+                })
+            }),
+            new ol.layer.Tile({
+                title: "天地图地形图层",
+                source: new ol.source.XYZ({
+                    url: "http://t0.tianditu.com/DataServer?T=ter_w&x={x}&y={y}&l={z}&tk=58df14135d5563e59825310d71f2e473",
+                    wrapX: false
+                })
+            }),
+            new ol.layer.Tile({
+                title: "天地图地形注记图层",
+                source: new ol.source.XYZ({
+                    url: "http://t0.tianditu.com/DataServer?T=cta_w&x={x}&y={y}&l={z}&tk=58df14135d5563e59825310d71f2e473",
+                    wrapX: false
+                })
+            }),
+			],
+			view: new ol.View({
+			// 中心位置
+			center: ol.proj.fromLonLat([x, y]),
+			// 缩放等级
+			zoom: 5
+			})
+		});
+        }
+    }
+    var container = document.getElementById("popup");
+    var content = document.getElementById("popup-content");
+    var popupCloser = document.getElementById("popup-closer");
+     // 添加单击事件处理程序以显示弹出窗口
+     let overlay;
+        map.on('click', function (event) {
+            map.forEachFeatureAtPixel(event.pixel, function (feature) {
+                const coordinates = feature.getGeometry().getCoordinates();
+                const property=feature.getProperties();
+                // 检查 overlay 是否已存在
+                if (overlay) {
+                    // 如果已存在，则删除 overlay
+                    map.removeOverlay(overlay);
+                    overlay = null;
+                } else {
+                    // 如果不存在，则创建新的 overlay
+                    //const content = document.createElement('div');
+                    content.innerHTML = `
+            <table id="routeBox">
+                <tbody>
+                    <tr>
+                    </tr>
+                    <tr>
+                        <th>名称：</th>
+                        <td>`+property["名称"]+`</td>
+                    </tr>
+                    <tr>
+                        <th>分类：</th>
+                        <td>`+property["小分类"]+`</td>
+                    </tr>
+                    <tr>
+                        <th>区域：</th>
+                        <td>`+property["区域"]+`</td>
+                    </tr>
+                    <tr>
+                        <th>地址：</th>
+                        <td>`+property["地址"]+`</td>
+                    </tr>
+                    <tr>
+                        <th>经度：</th>
+                        <td>`+property["经度"]+`</td>
+                    </tr>
+                    <tr>
+                        <th>纬度：</th>
+                        <td>`+property["纬度"]+`</td>
+                    </tr>
+                </tbody>
+            </table>
+        `                   
+                    overlay = new ol.Overlay({
+                        position: coordinates,
+                        positioning: 'center-center',
+                        element: container,
+                        stopEvent: false,
+                    });
+
+                    // 添加新的 overlay
+                    map.addOverlay(overlay);
+                }
+            });
+        });
+          /**
+        * 添加关闭按钮的单击事件（隐藏popup）
+        * @return {boolean} Don't follow the href.
+        */
+        popupCloser.onclick = function () {
+            //未定义popup位置
+            overlay.setPosition(undefined);
+            //失去焦点
+            popupCloser.blur();
+            return false;
+        };
+    function bindInputs(layerid, layer) {
+        var visibilityInput = $(layerid + ' input.visible');
+        visibilityInput.on('change', function () {
+            layer.setVisible(this.checked);
+        });
+        visibilityInput.prop('checked', layer.getVisible());
+
+        var opacityInput = $(layerid + ' input.opacity');
+        opacityInput.on('input change', function () {
+            layer.setOpacity(parseFloat(this.value));
+        });
+        opacityInput.val(String(layer.getOpacity()));
+    }
+    map.getLayers().forEach(function (layer, i) {
+        bindInputs('#layer' + i, layer);
+    });
+
+    $('#layertree li > span').click(function() {
+        $(this).siblings('fieldset').toggle();
+    });
+    $('#layertree li > span').siblings('fieldset').hide();
+    var mousePositionControl=new ol.control.MousePosition({
+            coordinateFormat:ol.coordinate.createStringXY(4),
+            projection:"EPSG:4326",
+            className:"custom-mouse-position",
+            target:document.getElementById("mouse-position"),
+            undefinedHTML:"&nbsp"
+    });
+    //实例化比例尺控件（ScaleLine）
+    var scaleLineControl = new ol.control.ScaleLine({
+            //设置比例尺单位，degrees、imperial、us、nautical、metric（度量单位）
+            units: "metric" 
+    });
+    //加载比例尺控件
+    map.addControl(scaleLineControl);
+    //视图跳转控件
+    var ZoomToExtent = new ol.control.ZoomToExtent({
+        extent:[13100000,4290000,13200000,5210000]
+    });
+    map.addControl(ZoomToExtent);
+    //放大缩小控件
+    var Zoomslider = new ol.control.ZoomSlider();
+    map.addControl(Zoomslider);
+    //全屏控件
+    var fullScreen = new ol.control.FullScreen();
+    map.addControl(fullScreen);
+    //加载鼠标位置控件
+    map.addControl(mousePositionControl);
+</script>
+</body>
+</html>

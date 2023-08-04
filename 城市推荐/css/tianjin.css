@@ -1,0 +1,117 @@
+#all{
+	width:1200px;
+	height: 2500px;
+	margin: 0 auto;
+	margin-top:-10px;
+}
+body{
+	background:url("../images/place\ \(4\).jpg");
+	background-size: cover;
+	background-repeat:round;
+	background-attachment:fixed;
+}
+.img img{
+	outline: #fff 1px solid;
+}
+.h_1{
+	font-size: 1.3em;
+	color: #37a8ff;
+}
+h1,.h_2{
+	color:#FCFCEE;
+	text-shadow: 1px 1px 2px #666666;
+}
+.box{
+	margin-top: 70px;
+	width: 1200px;
+	height: 2300px;
+	background-color:rgb(255, 255, 255);
+}
+main{
+	width:68%;
+	float: left;
+	margin-left: 10px;
+}
+main h1{
+	color:#1dd1ed;
+	text-shadow: 2px 2px 1px #7C7C7C;
+	font-size: 2.2em;
+	height: 80px;
+	border-bottom: #03d4e349 6px solid;
+}
+.img1 img{
+	border-radius: 110px;
+	box-shadow: 2px 5px 22px gray;
+	padding: 2px;
+}
+.box2 h2{
+	color:rgb(163, 203, 238);
+	font-size: 1.8em;
+	text-shadow: -1px 0 black,0 -1px black;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+main p{
+	font-size: 20px;
+	line-height: 1.0em;
+	text-indent: 2.0em;
+	margin-left: 10px;
+}
+.box2{
+	width: 816px;
+	height: 250px;
+	border: 1px dashed #4E3514;    
+}
+side{
+	width: 29%;
+	float: right;	
+}
+
+h4{
+	margin-top:30px;
+	color: #924A20;
+	margin-left: 16px;
+	font-size: 1.5em;
+	font-family: 楷体;
+}
+side video{
+	margin-left: 30px;
+}
+.dot{  
+	display: inline-block;  
+	height: 1em;  
+	line-height: 1;  
+	text-align: left;  
+	vertical-align: -.25em;  
+	overflow: hidden;
+} 
+.dot::before{  
+	display: block;  
+	content: '正在加载...';  
+	white-space: pre-wrap;  
+	animation: dot 2s infinite step-start both; 
+} 
+@keyframes dot{  33% {  transform: translateY(-2em);  }  
+	66% {  transform: translateY(-1em);  } 
+}
+.dyna{
+	background-color: #eefffd;
+	border: 5px gray double;
+}
+.dyna p{
+	color: #924A20;
+	margin-left: 16px;
+	font-size: 1.2em;
+	font-family: 楷体;
+	margin-right: 1em;
+	text-indent: 2em;
+}
+.reco a{
+	color: #666;
+	font-size: 1.1em;
+	text-decoration: none;
+}
+.reco li{
+	margin-bottom: 10px;
+	border-bottom: 1px #666 solid;
+}

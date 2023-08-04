@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+}
+body{
+	background: url("../images/mmexport1685360861712\(1\).jpg");
+	background-size: cover;
+	background-repeat:round;
+	background-attachment:fixed;
+}
+#box{
+	width:1200px;
+	height:2010px;
+	margin: 0 auto;
+}
+.img{
+	width: 1200px;
+	height: 600px;
+	background: url("../images/26.jpg") no-repeat center center/1200px 600px;
+}
+.h_1{
+	font-size: 1.3em;
+	color: #FF6537;
+}
+h1,.h_2{
+	color:#FCFCEE;
+	text-shadow: 1px 1px 2px #666666;
+}
+nav{
+	width: 1200px;
+	height: 658px;
+	margin-top:70px;
+}
+nav ul li{
+	display: inline-block;
+	margin-left: -6px;
+	text-align: center;
+	height: 330px;
+}
+nav ul{
+	margin-left: -34.5px;
+}
+.ul2{
+	margin-top: -94px;
+}
+/*设置列表对齐并拢*/
+nav ul li img{
+	width:401px;
+	height: 330px;
+}
+nav ul li a{
+	font-size: 2em;
+	font-weight: 700;
+	color:#fff;
+	line-height: 2.8em;
+	text-decoration: none;	
+}
+.opword{
+	display: inline-block;
+	background-color: rgba(205,202,202,0.5);
+	width:401px;
+	height: 100px;
+	position: relative;
+	top:-230px;
+}
+/*设置在图片上的透明背景加文字*/
+nav ul li a:hover img{
+	transform: scale(1,1.01);
+}
+nav ul li a:hover{
+	font-size: 2.2em;
+}
+/*设置鼠标放上去的交互效果*/
+#main{
+	background-color: #fff;
+	width:1200px;
+	height: 2510px;
+	margin-top: 100px;
+}
+#main p{
+	font-size: 20px;
+	line-height: 1.5em;
+	text-indent: 2.0em;
+	margin-left: 10px;
+}
+/*side和main的盒子*/
+side{
+	width:40%;
+	height: 1100px;
+	float:left;	
+}
+.side1{
+	height: 500px;
+}
+.fra{
+	width:80px;
+	height: 80px;
+	border: 2px solid #5A5858;
+	font-size: 2em;
+	color:#FF6537;
+	line-height: 3.8em;
+	margin-left: 50px;
+}
+.side1 h2{
+	color:#33ccd4;
+	font-size: 30px;
+	text-shadow: -1px 0 black,0 -1px black;
+	margin-left:15px;
+}
+.side1 p{
+	color: #666666;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-indent: 2em;
+}
+side p{	
+	line-height: 1.6em;
+}
+main p{
+	line-height: 1.6em;
+}
+main{
+	width: 60%;
+	height: 1100px;
+	float: right;	
+}
+.main1{
+	height: 500px;	
+}
+.main1 h2{
+	color:#33ccd4;
+	font-size: 30px;
+	text-shadow: -1px 0 black,0 -1px black;
+	margin-left:15px;
+}
+.main1 p{
+	color: #666666;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-indent: 2em;
+}
+footer{
+	width: 1200px;
+	height: 130px;
+	background-color: #191919;
+	color: #5D5D5D;
+	font-size: 1.2em;
+	text-align: center;
+}

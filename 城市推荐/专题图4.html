@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>常德市牛肉粉店分布及统计图</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/ol.css">
+  <script src="./js/ol.js"></script>
+  <script src="./js/echarts.min.js"></script>
+  <script type="text/javascript">
+	</script>
+  <!-- <script src="BaseLayerSwitcherToolBar.js"></script> -->
+  <style>
+    html, body, #map {
+      height: 100%;
+      padding: 0;
+      margin: 0;
+    }
+    /* 图层控制控件 */
+    div,
+    ul,
+    li {
+      border: none;
+      padding: 0;
+      margin: 0;
+      font-size: 14px;
+      font-family: 'Microsoft YaHei';
+    }
+
+    .layerControl {
+      position: absolute;
+      bottom: 30px;
+      min-width: 200px;
+      max-height: 200px;
+      right: 0px;
+      top: 30px;
+      z-index: 100;
+      color: #ffffff;
+      background-color: #737688;
+      border-width: 10px;
+      border-radius: 10px;
+      border-color: #000 #000 #000 #000;
+    }
+
+    .layerControl .title {
+      font-weight: bold;
+      font-size: 15px;
+      margin: 10px;
+    }
+
+    .layerTree li {
+      list-style: none;
+      margin: 5px 10px;
+    }
+
+  </style>
+</head>
+<body>
+<div id="map"></div>
+<div id="layerControl" class="layerControl">
+    <div class="title"><label for="">图层列表</label></div>
+	<ul id="layerTree" class="layerTree"></ul>
+<!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+<div id="main" style="background-color: #737688;width: 300px;height:200px;">
+  <label for="">餐馆分布</label></div>
+
+
+<script>
+	// 图层管理
+	// 1.创建列表数组
+    var layer = new Array(); // map的图层数组
+    var layerName = new Array(); // 图层名数组
+    var layerVisibility = new Array(); // 可见图层数组
+
+    // 2.创建加载图层列表中的数据函数
+    function loadLayersControl(map, id) {
+      var treeContent = document.getElementById(id); //获取图层列表容器对象ul
+      var layers = map.getLayers(); // 获取地图中所以图层；
+      // 2.1 遍历layers，获取图层、名字、可见性，创建li列表
+      for (var i = 0; i < layers.getLength(); i++) { // getLength()获取图层个数
+        layer[i] = layers.item(i); // 获取集合中第i个图层，循环为layer数组赋值
+        layerName[i] = layer[i].get('name'); // 获取图层名字
+        layerVisibility[i] = layer[i].getVisible(); // 获取图层可见性，返回布尔值
+        var elementLi = document.createElement('li');  // 创建li子节点
+        treeContent.appendChild(elementLi); // 添加li子节点到ul
+        // 2.2 创建复选框
+        var elementInput = document.createElement('input');
+        elementInput.type = 'checkbox';
+        elementInput.name = 'layers' // name属性值一致才能实现复选
+        elementLi.appendChild(elementInput);
+        // 2.3 创建label元素
+        var elementLabel = document.createElement('label');
+        elementLabel.className = 'layer'; // 设置label类名，修改样式
+        // 2.3 设置图层名称
+        elementLabel.innerHTML = layerName[i]; // 把图层名添加到label
+        // 2.4 把label追加到li
+        elementLi.appendChild(elementLabel);
+        // 2.5 设置图层默认显示
+        if (layerVisibility[i]) {
+          elementInput.checked = true; // 如果图层可见，勾选复选框
+        };
+        // 2.6 为checkbox添加变更事件监听函数
+        addChangeEvent(elementInput, layer[i]);
+      }
+    };
+	// 3.为checkbox绑定点击事件
+    function addChangeEvent(element, layer) {
+      element.addEventListener('click', function () {
+        if (element.checked) {
+          layer.setVisible(true);
+        } else {
+          layer.setVisible(false);
+        }
+      });
+    }
+
+// 底图切换
+ var satelliteLayer = new ol.layer.Tile({ //天地图卫星图
+		  visible: false,
+		  source: new ol.source.XYZ({
+			url: 'http://t{0-7}.tianditu.com/DataServer?T=img_w&x={x}&y={y}&l={z}&tk=c0b1eb402993e1592a4d4f178adc1da0',
+			wrapX: false
+		  }),
+		  name:'天地图卫星图',
+		  preload: Infinity,
+	  });
+
+ var satelliteLabelLayer = new ol.layer.Tile({
+		  visible: false,
+		  source: new ol.source.XYZ({ //天地图卫星图注记
+			url: 'http://t{0-7}.tianditu.com/DataServer?T=cia_w&x={x}&y={y}&l={z}&tk=c0b1eb402993e1592a4d4f178adc1da0',
+			wrapX: false
+		  }),
+		  name:'天地图卫星图注记',
+		  preload: Infinity,
+	  });
+
+
+  var AMapLayer = new ol.layer.Tile({
+		source: new ol.source.XYZ({
+			url: 'http://wprd0{1-4}.is.autonavi.com/appmaptile?lang=zh_cn&size=1&style=7&x={x}&y={y}&z={z}'
+		}),
+    name:'高德地图',
+	});
+
+
+ var terLayer = new ol.layer.Tile({
+		  visible: false,
+		  source: new ol.source.XYZ({ //天地图地形图
+			url: 'http://t{0-7}.tianditu.com/DataServer?T=ter_w&x={x}&y={y}&l={z}&tk=c0b1eb402993e1592a4d4f178adc1da0',
+			wrapX: false
+		  }),
+		  name:'天地图地形图',
+		  preload: Infinity,
+	  });
+
+ var vec= new ol.layer.Vector({
+    source: new ol.source.Vector({
+      url: 'https://geojson.cn/api/data/430000.json',
+      format: new ol.format.GeoJSON(),
+    }),
+    name: '湖南省GeoJSON',
+  });
+        
+  var points= new ol.layer.Vector({
+    source: new ol.source.Vector({
+      url: './test1.geojson',
+      format: new ol.format.GeoJSON(),
+    }),
+    name: '常德市特色牛肉粉店及分布统计',
+    style:new ol.style.Style({
+      image: new ol.style.Circle({
+        radius: 7,
+        fill: new ol.style.Fill({
+          color: '#ffff00',
+        }),
+        stroke: new ol.style.Stroke({
+          color: '#555555',
+          width: 1
+        })
+    })
+    })
+  });
+  
+ var layers = [
+  AMapLayer,
+	terLayer,
+  satelliteLayer,
+  satelliteLabelLayer,
+	vec,
+  points,
+  ];
+
+window.onload=function(){
+  //地图创建
+  var map = new ol.Map({
+	  layers: layers,
+	  target: 'map',
+	  view: new ol.View({
+		projection: 'EPSG:4326',
+		center: [111.49033880652411, 29.334467489614684],
+		zoom: 9,
+        control:[overview]
+	  })
+   });
+
+    //创建鹰眼控件
+  var overview = new ol.control.OverviewMap({
+        className: 'ol-overviewmap ol-custom-overviewmap',
+        layers: [
+            new ol.layer.Tile({
+                source: new ol.source.XYZ({
+                    url: "http://t0.tianditu.com/DataServer?T=cva_w&x={x}&y={y}&l={z}&tk=c0b1eb402993e1592a4d4f178adc1da0",
+                })
+            })
+        ],
+        //鹰眼控件展开时功能按钮上的标识（网页的JS的字符编码）
+        collapseLabel: '\u00BB',
+        //鹰眼控件折叠时功能按钮上的标识（网页的JS的字符编码）
+        label: '\u00AB',
+        // 设置为false时，鹰眼图在地图初始化时展开
+        collapsed: false
+    });
+
+    //全屏控件
+    var fullScreen=new ol.control.FullScreen();
+
+    //创建鼠标控件
+    var mouse = new ol.control.MousePosition({
+        coordinateFormat: ol.coordinate.createStringXY(4),      // 将坐标保留4位小数位，并转换为字符串
+        projection: 'EPSG:4326',                                // 定义投影
+        className: 'custom-mouse-position',
+        undefinedHTML: '&nbsp;'                                 // 鼠标离开地图时，显示空格
+    });
+    var mousePositionControl = new ol.control.MousePosition({
+        target: document.getElementById('mouse-position')
+    });
+
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+ 
+    // 指定图表的配置项和数据
+    var option = {
+      series: [{
+        type: 'pie',
+        data: [{
+          value: 43,
+          name: '津市市'
+        },
+        {
+           value: 30,
+           name: '澧县'
+        },
+        {
+           value: 21,
+           name: '石门县'
+        },
+        {
+           value: 7,
+           name: '桃源县'
+        },
+        {
+          value: 16,
+          name: '安乡县'
+        },
+        {
+           value:11,
+           name:'汉寿县'
+        },
+        {
+           value:58,
+           name:'常德市'
+       }],
+      roseType: 'area'
+      }]
+    };
+  // 使用刚指定的配置项和数据显示图表。
+   myChart.setOption(option);
+  map.addControl(overview);
+  map.addControl(mousePositionControl);
+  map.addControl(fullScreen);
+  // 加载图层列表中的数据
+  loadLayersControl(map, 'layerTree');
+
+
+}
+  
+</script>
+
+</body>
+</html>
