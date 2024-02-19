@@ -24,11 +24,12 @@ draw graphs(points,lines,polygons):
 measure distance:
 ![image](https://github.com/tocoppp/Web-Based-Thematic-Map-System/assets/95690442/0c44f77e-be80-4fc4-bc86-e1327db502b5)
 
-地图注记跳转
+symbol details:
+represent distribution of specialty restaurants in Wuhan and their detailed information(name, location...).
 ![image](https://github.com/tocoppp/Web-Based-Thematic-Map-System/assets/95690442/b21b6c1c-ddd1-4b9c-a279-9e2e250723c0)
 
-属性统计
-represent distribution of specialty restaurants in Changde, and .
+attribution map:
+represent distribution of specialty restaurants in Changde through map and pie chart.
 ![image](https://github.com/tocoppp/Web-Based-Thematic-Map-System/assets/95690442/4c43180b-90b7-47b5-8378-84f73cd0e367)
 
 heatmap: 
